@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sorting Visualizer</h1>
+  <div class="container">
+    <div class="bar-container">
+      <!-- Bars will be dynamically created here -->
+    </div>
+    <div class="btn-container">
+     <button id="generate-array-btn" onclick="resetArray()">Generate New Array</button>
+<button id="bubble-sort-btn" onclick="bubbleSort()">Bubble Sort O(N^2)</button>
+<button id="heap-sort-btn" onclick="heapSort()">Heap Sort O(Nlogn)</button>
+     <!-- <button onclick="mergeSort()">Merge Sort</button>-->
+    
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

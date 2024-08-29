@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Times New Roman, serif;
+}
+
+body {background-color: #eeeedd;}
+.container {
+  text-align: center;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.bar {
+  width: 10px;
+  margin: 0 1px;
+  background-color: #007bff;
+}
+
+.btn-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
